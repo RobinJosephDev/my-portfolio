@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface Project {
@@ -27,3 +28,34 @@ const projectSlice = createSlice({
 
 export const { setProjects } = projectSlice.actions;
 export default projectSlice.reducer;
+=======
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+
+interface Project {
+  id: number;
+  title: string;
+  description: string;
+  link: string;
+}
+
+interface ProjectState {
+  projects: Project[];
+}
+
+const initialState: ProjectState = {
+  projects: [],
+};
+
+const projectSlice = createSlice({
+  name: "projects",
+  initialState,
+  reducers: {
+    setProjects: (state, action: PayloadAction<Project[]>) => {
+      state.projects = action.payload;
+    },
+  },
+});
+
+export const { setProjects } = projectSlice.actions;
+export default projectSlice.reducer;
+>>>>>>> e7b500a4787e9b495d567a5254f9d942c3897de8
