@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="border-t border-gray-200 dark:border-gray-800 mt-16 py-6 text-center">
       <div className="flex justify-center space-x-6 mb-3">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/RobinJosephDev"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition"
@@ -13,7 +13,7 @@ export default function Footer() {
           <Github />
         </a>
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://linkedin.com/in/rjo17"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition"
@@ -21,7 +21,7 @@ export default function Footer() {
           <Linkedin />
         </a>
         <a
-          href="mailto:your@email.com"
+          href="mailto:robinjo1776@email.com"
           className="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition"
         >
           <Mail />
