@@ -145,7 +145,7 @@ export default function AboutPage() {
               </Link>
 
               <Link
-                href="/resume"
+                href="/resume.pdf"
                 target="_blank"
                 className="px-6 py-3 rounded border border-gray-300 text-white dark:border-gray-600 dark:text-white dark:bg-gray-800"
               >
