@@ -4,21 +4,17 @@ import Footer from "./components/Footer";
 import ThemeSync from "./ThemeSync";
 import "./globals.css";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body className="min-h-screen flex flex-col">
         <ReduxProvider>
-          <ThemeSync />
           <Navbar />
-          <main>{children}</main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </ReduxProvider>
       </body>
     </html>
   );
 }
+
