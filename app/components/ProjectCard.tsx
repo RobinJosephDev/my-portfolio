@@ -15,7 +15,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
       )}
       <h3 className="text-xl font-semibold">{project.title}</h3>
-      <p className="text-gray-600 dark:text-gray-300">{project.description}</p>
+      <p className="text-gray-600">{project.description}</p>
       <a
         href={project.link}
         target="_blank"
