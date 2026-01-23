@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "About",
+};
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100">

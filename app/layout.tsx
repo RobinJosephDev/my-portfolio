@@ -4,6 +4,13 @@ import Footer from "./components/Footer";
 import ThemeSync from "./ThemeSync";
 import "./globals.css";
 
+export const metadata = {
+  title: {
+    default: "Robin Joseph",
+    template: "%s | Robin Joseph",
+  },
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
