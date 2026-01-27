@@ -5,7 +5,7 @@ export default function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="border rounded p-4 shadow hover:shadow-lg transition">
       {project.image && (
-        <div className="relative w-full h-60 mb-2 rounded overflow-hidden">
+        <div className="relative w-full h-80 mb-2 rounded overflow-hidden">
           <Image
             src={project.image}
             alt={project.title}
@@ -27,4 +27,3 @@ export default function ProjectCard({ project }: { project: Project }) {
     </div>
   );
 }
-
