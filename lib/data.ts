@@ -32,21 +32,20 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "MERN Ecommerce",
-    description:
-      "A full-stack ecommerce platform with user authentication, product management, shopping cart, order tracking, and an admin dashboard, built with MongoDB, Express, React, Node.js, and Tailwind CSS.",
-    link: "https://github.com/RobinJosephDev/mern-ecommerce.git",
-    image: "/images/mern-ecommerce.png",
-  },
-  {
-    id: 4,
     title: "Full Stack Realtime Chat App",
     description:
       "A MERN stack chat application with real-time messaging, private & group chats, online status, JWT authentication, media uploads via Cloudinary, and a responsive UI built with React, TailwindCSS, and DaisyUI. Powered by Socket.io for live communication and ready for production deployment.",
     link: "https://github.com/RobinJosephDev/mern-chat-app.git",
     image: "/images/mern-chat.png",
   },
-
+  {
+    id: 4,
+    title: "MERN Ecommerce",
+    description:
+      "A full-stack ecommerce platform with user authentication, product management, shopping cart, order tracking, and an admin dashboard, built with MongoDB, Express, React, Node.js, and Tailwind CSS.",
+    link: "https://github.com/RobinJosephDev/mern-ecommerce.git",
+    image: "/images/mern-ecommerce.png",
+  },
   {
     id: 5,
     title: "Event Booking & Management Platform",
