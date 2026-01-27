@@ -34,18 +34,3 @@ https://my-portfolio-lemon-two-94.vercel.app/
 
 ---
 
-## Project Structure
-
-```text
-portfolio/
-├── app/ (or pages/)
-│   ├── layout.js
-│   ├── page.js
-│   ├── projects/
-│   ├── about/
-│   └── contact/
-├── components/
-├── public/
-├── styles/
-├── package.json
-└── README.md
