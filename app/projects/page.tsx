@@ -10,7 +10,7 @@ export default function Home() {
     <div className="p-8">
       <h2 className="text-3xl font-bold mb-2">My Work</h2>
 
-      <p className="text-sm text-gray-500 mb-6">
+      <p className="text-md text-black-500 mb-6">
         Note: Backend services are temporarily disabled in all projects to reduce hosting
         costs. Full end-to-end demos can be made available upon request.
       </p>
