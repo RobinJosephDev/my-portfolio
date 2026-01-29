@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: "Logistics Management Platform (Laravel + React)",
     description:
       "A full-stack logistics and operations management system with a Laravel backend and a React + TypeScript admin dashboard. The platform supports authentication, orders, shipments, customers, brokers, vendors, leads, quotes, file uploads, email notifications, and role-based access. Features a metrics-driven dashboard, robust REST APIs, strict validation, and PostgreSQL for reliable relational data management. Designed for scalability and real-world business workflows.",
-    link: "https://github.com/RobinJosephDev/LaravelLogisticsBackend",
+    link: "https://github.com/RobinJosephDev/LinkLoadsAPIProd",
     image: "/images/laravel-logistics.png",
   },
   // {
