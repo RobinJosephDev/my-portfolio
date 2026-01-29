@@ -40,12 +40,20 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "MERN Ecommerce",
+    title: "Logistics Management Platform (Laravel + React)",
     description:
-      "A full-stack ecommerce platform with user authentication, product management, shopping cart, order tracking, and an admin dashboard, built with MongoDB, Express, React, Node.js, and Tailwind CSS.",
-    link: "https://github.com/RobinJosephDev/mern-ecommerce.git",
-    image: "/images/mern-ecommerce.png",
+      "A full-stack logistics and operations management system with a Laravel backend and a React + TypeScript admin dashboard. The platform supports authentication, orders, shipments, customers, brokers, vendors, leads, quotes, file uploads, email notifications, and role-based access. Features a metrics-driven dashboard, robust REST APIs, strict validation, and PostgreSQL for reliable relational data management. Designed for scalability and real-world business workflows.",
+    link: "https://github.com/RobinJosephDev/LaravelLogisticsBackend",
+    image: "/images/laravel-logistics.png",
   },
+  // {
+  //   id: 4,
+  //   title: "MERN Ecommerce",
+  //   description:
+  //     "A full-stack ecommerce platform with user authentication, product management, shopping cart, order tracking, and an admin dashboard, built with MongoDB, Express, React, Node.js, and Tailwind CSS.",
+  //   link: "https://github.com/RobinJosephDev/mern-ecommerce.git",
+  //   image: "/images/mern-ecommerce.png",
+  // },
   {
     id: 5,
     title: "Event Booking & Management Platform",
