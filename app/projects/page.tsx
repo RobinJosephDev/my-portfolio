@@ -8,7 +8,13 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="p-8">
-      <h2 className="text-3xl font-bold mb-4">My Work</h2>
+      <h2 className="text-3xl font-bold mb-2">My Work</h2>
+
+      <p className="text-sm text-gray-500 mb-6">
+        Note: Backend services are temporarily disabled in all projects to reduce hosting
+        costs. Full end-to-end demos can be made available upon request.
+      </p>
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((proj) => (
           <ProjectCard key={proj.id} project={proj} />
