@@ -16,22 +16,14 @@ export interface Skill {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Personal Portfolio Website",
+    title: "MERN CRM Application",
     description:
-      "A modern, responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS to showcase projects, skills, and experience. Features include reusable components, optimized images, SEO-friendly pages, smooth animations, and a clean UI designed for performance and accessibility. Deployed with Vercel for fast global delivery.",
-    link: "https://github.com/RobinJosephDev/my-portfolio",
-    image: "/images/my-portfolio.png",
+      "A production-ready full-stack CRM built with the MERN stack featuring JWT authentication, full Role-Based Access Control (Admin, Employee, Carrier, Customer), dynamic role-based dashboards with analytics, background email queue processing using Redis, secure password reset workflow, lead/quote/shipment management, and complete CRUD operations. Designed with scalable architecture, centralized error handling, secure token management, and real-world business workflow logic.",
+    link: "https://github.com/RobinJosephDev/mern-crm", // update if different
+    image: "/images/mern-crm.png",
   },
   {
     id: 2,
-    title: "Resort Booking App",
-    description:
-      "A full-stack MERN + TypeScript resort booking system with a modern React + Tailwind CSS frontend and a secure Express + MongoDB backend. Features include responsive UI, booking management, admin dashboard, input validation, and RESTful APIs, fully deployable with Vercel and Render.",
-    link: "https://github.com/RobinJosephDev/mern-resort-booking.git",
-    image: "/images/mern-resort-booking.png",
-  },
-  {
-    id: 3,
     title: "Full Stack Realtime Chat App",
     description:
       "A MERN stack chat application with real-time messaging, private & group chats, online status, JWT authentication, media uploads via Cloudinary, and a responsive UI built with React, TailwindCSS, and DaisyUI. Powered by Socket.io for live communication and ready for production deployment.",
@@ -39,21 +31,22 @@ export const projects: Project[] = [
     image: "/images/mern-chat.png",
   },
   {
-    id: 4,
-    title: "Logistics Management Platform (Laravel + React)",
+    id: 3,
+    title: "Personal Portfolio Website",
     description:
-      "A full-stack logistics and operations management system with a Laravel backend and a React + TypeScript admin dashboard. The platform supports authentication, orders, shipments, customers, brokers, vendors, leads, quotes, file uploads, email notifications, and role-based access. Features a metrics-driven dashboard, robust REST APIs, strict validation, and PostgreSQL for reliable relational data management. Designed for scalability and real-world business workflows.",
-    link: "https://github.com/RobinJosephDev/LinkLoadsAPIProd",
-    image: "/images/laravel-logistics.png",
+      "A modern, responsive developer portfolio built with Next.js, TypeScript, and Tailwind CSS to showcase projects, skills, and experience. Features include reusable components, optimized images, SEO-friendly pages, smooth animations, and a clean UI designed for performance and accessibility. Deployed with Vercel for fast global delivery.",
+    link: "https://github.com/RobinJosephDev/my-portfolio",
+    image: "/images/my-portfolio.png",
   },
-  // {
-  //   id: 4,
-  //   title: "MERN Ecommerce",
-  //   description:
-  //     "A full-stack ecommerce platform with user authentication, product management, shopping cart, order tracking, and an admin dashboard, built with MongoDB, Express, React, Node.js, and Tailwind CSS.",
-  //   link: "https://github.com/RobinJosephDev/mern-ecommerce.git",
-  //   image: "/images/mern-ecommerce.png",
-  // },
+  {
+    id: 4,
+    title: "Resort Booking App",
+    description:
+      "A full-stack MERN + TypeScript resort booking system with a modern React + Tailwind CSS frontend and a secure Express + MongoDB backend. Features include responsive UI, booking management, admin dashboard, input validation, and RESTful APIs, fully deployable with Vercel and Render.",
+    link: "https://github.com/RobinJosephDev/mern-resort-booking.git",
+    image: "/images/mern-resort-booking.png",
+  },
+
   {
     id: 5,
     title: "Event Booking & Management Platform",

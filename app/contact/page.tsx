@@ -18,7 +18,7 @@ export default function ContactPage() {
         <div className="grid md:grid-cols-3 gap-4 mb-10">
           <div className="p-6 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
             <h2 className="font-bold text-lg mb-2">Location</h2>
-            <p className="text-gray-700 dark:text-gray-300">Alappuzha, Kerala</p>
+            <p className="text-gray-700 dark:text-gray-300">Bengaluru</p>
           </div>
 
           <div className="p-6 rounded-xl bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
@@ -64,10 +64,7 @@ export default function ContactPage() {
               />
             </div>
 
-            <button
-              type="submit"
-              className="w-full py-3 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-black font-semibold"
-            >
+            <button type="submit" className="w-full py-3 rounded-lg bg-gray-900 dark:bg-white text-white dark:text-black font-semibold">
               Send Message
             </button>
           </form>
