@@ -18,15 +18,15 @@ export const projects: Project[] = [
     id: 1,
     title: "Mantraworx",
     description:
-      "Built a production-grade, multi-tenant transactional email platform handling the complete email lifecycle from API ingestion to SMTP delivery. Architected a polyglot microservices ecosystem using Go, Node.js/TypeScript, React, PostgreSQL, Redis, and Docker. Features include custom SMTP relay with DKIM signing (RSA-2048 & Ed25519), STARTTLS, IP warmup automation, BullMQ-powered job processing, domain verification, webhook delivery, high-throughput open/click tracking, real-time analytics dashboards, and GDPR-compliant suppression management. Designed for scalability, tenant isolation, observability, and reliable high-volume email delivery.",
+      "Built MantraWorx, a comprehensive enterprise workforce and project delivery platform that centralizes HR operations, project management, payroll, finance, document workflows, real-time collaboration, and AI-powered knowledge retrieval. Developed modules for projects, sprints, tasks, attendance, employee management, approvals, budgeting, salary processing, document management, chat, notifications, video meetings, and role-based access control (RBAC). Integrated an AI assistant powered by Retrieval-Augmented Generation (RAG) and structured operational queries to provide intelligent access to organizational knowledge and business data.",
     link: "https://mantraworx.com/workspace",
     image: "/images/mantraworx.png",
   },
   {
     id: 2,
-    title: "Mail Service",
+    title: "Email Service",
     description:
-      "Built MantraWorx, a comprehensive enterprise workforce and project delivery platform that centralizes HR operations, project management, payroll, finance, document workflows, real-time collaboration, and AI-powered knowledge retrieval. Developed modules for projects, sprints, tasks, attendance, employee management, approvals, budgeting, salary processing, document management, chat, notifications, video meetings, and role-based access control (RBAC). Integrated an AI assistant powered by Retrieval-Augmented Generation (RAG) and structured operational queries to provide intelligent access to organizational knowledge and business data.",
+      "Built a production-grade, multi-tenant transactional email platform handling the complete email lifecycle from API ingestion to SMTP delivery. Architected a polyglot microservices ecosystem using Go, Node.js/TypeScript, React, PostgreSQL, Redis, and Docker. Features include custom SMTP relay with DKIM signing (RSA-2048 & Ed25519), STARTTLS, IP warmup automation, BullMQ-powered job processing, domain verification, webhook delivery, high-throughput open/click tracking, real-time analytics dashboards, and GDPR-compliant suppression management. Designed for scalability, tenant isolation, observability, and reliable high-volume email delivery.",
     link: "https://mail.mantraworx.com/admin/",
     image: "/images/email.png",
   },
@@ -45,14 +45,6 @@ export const projects: Project[] = [
       "A MERN stack chat application with real-time messaging, private & group chats, online status, JWT authentication, media uploads via Cloudinary, and a responsive UI built with React, TailwindCSS, and DaisyUI. Powered by Socket.io for live communication and ready for production deployment.",
     link: "https://github.com/RobinJosephDev/mern-chat-app.git",
     image: "/images/mern-chat.png",
-  },
-  {
-    id: 5,
-    title: "Resort Booking App",
-    description:
-      "A full-stack MERN + TypeScript resort booking system with a modern React + Tailwind CSS frontend and a secure Express + MongoDB backend. Features include responsive UI, booking management, admin dashboard, input validation, and RESTful APIs, fully deployable with Vercel and Render.",
-    link: "https://github.com/RobinJosephDev/mern-resort-booking.git",
-    image: "/images/mern-resort-booking.png",
   },
 ];
 
